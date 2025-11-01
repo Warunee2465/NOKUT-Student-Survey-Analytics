@@ -1,0 +1,904 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Programdata_SB
+2018</AnnotationText>
+          <DefaultAnnotationText>Programdata_SB2018.xls
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="studiepgm_navn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="identifikator" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="studiepgm_navn_en" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="instnr" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="instnavn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="instnavn_en" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="studiested" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="NUSKODE" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="fagfelt" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="fagfelt_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="fagfelt_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="faggruppe" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="faggruppe_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="faggruppe_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utdanningsgruppe" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utdanningsgruppe_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utdanningsgruppe_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="bama" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="fagfelt_bama" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="studprog_kod" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="Prosenttall_Praksis" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="STUDIENIVAKODE" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utd_type" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utd_gruppe" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="aggregerte_data" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="oppr_utvalg" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="end_utvalg" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="andel_svart" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="terskel" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="an_heltd_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="stupoeng_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="organis_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="pc_praksDBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undsprakDBH" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="vidutd_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="totstud_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="totkvi_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="totmenn_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="aldmedian_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="totkvi_prosent_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="totmenn_prosent_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="underv_engasj_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="underv_formidl_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="underv_pensum_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="underv_aktiv_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_underv_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_forinnlev_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_etterinnlev_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_ikkeskrift_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_andrestud_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_fagprobl_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_fagutvikl_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="tilbveil_antall_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="tilbveil_konstru_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="tilbveil_fagdisk_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_tilbveil_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="tilbveil_student_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="miljo_sosial_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="miljo_fag_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="miljo_studans_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_psymiljo_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="miljo_lokaler_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="miljo_utstyr_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="miljo_biblio_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="miljo_ikt_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_fysmiljo_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_miljo_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="organ_tilgjinfo_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="organ_kvalinfo_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="organ_admtilr_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="organ_fagligsam_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_organ_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="vurd_pensum_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="vurd_forstaelse_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="vurd_laert_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="vurd_kriterier_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="vurd_fagutv_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_vurd_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="medvirk_innspill_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="medvirk_oppfolg_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="medvirk_tillitsv_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_medvirk_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="insp_stimul_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="insp_utfordr_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="insp_motivasjon_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_insp_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_forber_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_organ_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_komm_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_tilbakem_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_fagutford_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_teori_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_undervis_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_praksis_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="yrkrel_komp_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="yrkrel_bruk_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="yrkrel_bransje_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="yrkrel_kontakter_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_yrkrel_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_teori_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_metforsk_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_egenerf_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_fagspes_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_refleks_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_samarb_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_muntkom_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_skriftkom_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_tenke_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_selvst_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="egeteng_motivert_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="egeteng_orgakt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="egeteng_forberedt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="egeteng_innsats_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_egeteng_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="forvent_klare_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="forvent_forberedt_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="forvent_deltar_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="forvent_fagamb_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_forvent_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="overord_garpahelst_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="overord_altialt_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="tidsbruk_laerakt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="tidsbruk_egeninns_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="tidsbruk_arbeid_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="digitale_aktivt_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="digitale_kompet_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="digitale_opplaer_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="digitale_laerplatt_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_digi_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_forelesn_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_seminar_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_gruppe_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_innlev_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_prosjekt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_feltarb_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_lab_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_praktov_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_case_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_simul_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_praksis_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbruk_digital_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_forelesn_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_seminar_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_gruppe_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_innlev_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_prosjekt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_feltarb_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_lab_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_praktov_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_case_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_simul_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_praksis_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="undbidr_digital_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="studiestart_samsvar_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="studiestart_forventn_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="studiestart_innfor_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="studiestart_fagfellans_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="studiestart_fagfellstud_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+            <Field name="studiestart_sosfell_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2018.xls|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Programdata_SB
+2019</AnnotationText>
+          <DefaultAnnotationText>Programdata_SB2019.xls
+Query=`SB19_program$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="studiepgm_navn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="identifikator" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="studiepgm_navn_en" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="instnr" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="instnavn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="instnavn_en" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="studiested" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="NUSKODE" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="fagfelt" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="fagfelt_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="fagfelt_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="faggruppe" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="faggruppe_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="faggruppe_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="utdanningsgruppe" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="utdanningsgruppe_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="utdanningsgruppe_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="bama" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="fagfelt_bama" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="studprog_kod" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="STUDIENIVAKODE" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="utd_type" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="utd_type_bok" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="utd_type_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="utd_type_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="utd_gruppe" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="aggregerte_data" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="oppr_utvalg" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="end_utvalg" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="andel_svart" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="terskel" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="an_heltd_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="stupoeng_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="organis_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="pc_praksDBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="undsprakDBH" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="vidutd_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="totstud_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="totkvi_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="totmenn_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="aldmedian_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="totkvi_prosent_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="totmenn_prosent_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="underv_engasj_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="underv_formidl_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="underv_pensum_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="underv_aktiv_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_underv_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="omftilb_forinnlev_15" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="omftilb_etterinnlev_15" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="omftilb_ikkeskrift_15" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="omftilb_andrestud_15" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="omftilb_fagprobl_15" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="omftilb_fagutvikl_15" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="tilbveil_antall_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="tilbveil_konstru_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="tilbveil_fagdisk_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_tilbveil_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="tilbveil_student_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="miljo_sosial_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="miljo_fag_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="miljo_studans_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_psymiljo_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="miljo_lokaler_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="miljo_utstyr_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="miljo_biblio_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="miljo_ikt_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_fysmiljo_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_miljo_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="organ_tilgjinfo_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="organ_kvalinfo_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="organ_admtilr_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="organ_fagligsam_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_organ_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="vurd_pensum_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="vurd_forstaelse_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="vurd_laert_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="vurd_kriterier_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="vurd_fagutv_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_vurd_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="medvirk_innspill_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="medvirk_oppfolg_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="medvirk_tillitsv_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_medvirk_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="insp_stimul_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="insp_utfordr_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="insp_motivasjon_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_insp_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="laerutb_teori_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="laerutb_metforsk_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="laerutb_egenerf_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="laerutb_fagspes_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="laerutb_refleks_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="laerutb_samarb_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="laerutb_muntkom_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="laerutb_skriftkom_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="laerutb_tenke_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="laerutb_selvst_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="egeteng_motivert_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="egeteng_orgakt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="egeteng_forberedt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="egeteng_innsats_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_egeteng_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="forvent_klare_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="forvent_forberedt_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="forvent_deltar_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="forvent_fagamb_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_forvent_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="digitale_aktivt_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="digitale_kompet_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="digitale_opplaer_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="digitale_laerplatt_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_digi_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="overord_garpahelst_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="overord_altialt_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="tidsbruk_laerakt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="tidsbruk_egeninns_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="tidsbruk_arbeid_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="praksis_tot_arbmengde_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksiso_inf_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksiso_forber_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksiso_skaffeplass_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksiso_tokimot_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksiso_passetinn_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksiso_tilgjeng_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksisv_ofteveil_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksisv_tilgjengveil_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksisv_kvalitetveil_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksisf_relevant_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksisf_fagligutf_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="praksisf_grunnlagdisk_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="indeks_praksisv_19" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="yrkrel_bruk_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="yrkrel_bransje_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="yrkrel_formidle_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="yrkrel_motearb_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="yrkrel_bidrar_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="yrkrel_prosjekt_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="indeks_yrkrel_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="Double" />
+            <Field name="undbruk_forelesn_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_seminar_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_gruppe_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_innlev_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_prosjekt_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_feltarb_17" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_lab_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_praktov_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_case_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_simul_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_praksis_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbruk_digital_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_forelesn_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_seminar_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_gruppe_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_innlev_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_prosjekt_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_feltarb_17" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_lab_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_praktov_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_case_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_simul_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_praksis_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+            <Field name="undbidr_digital_14" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2019.xls|||`SB19_program$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Programdata_SB
+2020</AnnotationText>
+          <DefaultAnnotationText>Programdata_SB2020.xls
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="studiepgm_navn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="identifikator" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="studiepgm_navn_en" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="instnr" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="instnavn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="instnavn_en" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="studiested" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="NUSKODE" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="fagfelt" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="fagfelt_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="fagfelt_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="faggruppe" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="faggruppe_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="faggruppe_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utdanningsgruppe" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utdanningsgruppe_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utdanningsgruppe_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="bama" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="fagfelt_bama" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="studprog_kod" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="STUDIENIVAKODE" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utd_type" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utd_type_bok" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utd_type_eng" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utd_type_nyn" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="utd_gruppe" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="aggregerte_data" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="oppr_utvalg" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="end_utvalg" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="andel_svart" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="terskel" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="an_heltd_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="stupoeng_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="organis_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="pc_praksDBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="undsprakDBH" size="255" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="V_WString" />
+            <Field name="vidutd_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="totstud_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="totkvi_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="totmenn_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="aldmedian_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="totkvi_prosent_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="totmenn_prosent_DBH" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="underv_engasj_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="underv_formidl_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="underv_pensum_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="underv_aktiv_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_underv_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_forinnlev_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_etterinnlev_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_ikkeskrift_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_andrestud_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_fagprobl_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="omftilb_fagutvikl_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="tilbveil_antall_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="tilbveil_konstru_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="tilbveil_fagdisk_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_tilbveil_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="tilbveil_student_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="miljo_sosial_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="miljo_fag_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="miljo_studans_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_psymiljo_15" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="organ_tilgjinfo_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="organ_kvalinfo_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="organ_admtilr_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="organ_fagligsam_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_organ_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="vurd_pensum_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="vurd_forstaelse_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="vurd_kriterier_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="vurd_fagutv_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_vurd_17" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="medvirk_innspill_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="insp_stimul_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="insp_utfordr_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="insp_motivasjon_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_insp_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_teori_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_metforsk_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_egenerf_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_fagspes_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_refleks_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_samarb_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_muntkom_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_skriftkom_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_tenke_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="laerutb_selvst_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="egeteng_motivert_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="egeteng_orgakt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="egeteng_forberedt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="egeteng_innsats_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_egeteng_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="forvent_klare_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="forvent_forberedt_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="forvent_deltar_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="forvent_fagamb_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_forvent_16" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="digitale_aktivt_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="digitale_kompet_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="digitale_opplaer_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="digitale_laerplatt_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_digi_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="overord_garpahelst_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="overord_altialt_13" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="tidsbruk_laerakt_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="tidsbruk_egeninns_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="tidsbruk_arbeid_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_inf_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_forber_14" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_passetinn_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_veil_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_laerutb_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_relevant_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="praksis_grunnlagdisk_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_praksis_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="yrkrel_bruk_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="yrkrel_bransje_18" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="yrkrel_formidle_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="yrkrel_bidrar_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="yrkrel_prosjekt_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="indeks_yrkrel_19" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_underv_nettunderv_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_underv_engasj_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_underv_ikkedigkomp_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_underv_info_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_underv_innspill_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_deltag_meraktiv_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_deltag_mindremotiv_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_deltag_nettveil_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_deltag_laertmer_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_deltag_opptak_fåmed_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_deltag_opptak_flere_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_deltag_foretr_live_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_deltag_lettdelt_nett_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_deltag_litenanld_spm_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_vurd_hjemmeok_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_vurd_nett_merutfordr_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_vurd_bestattikke_ok_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_psyksos_ensom_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_psysos_struktur_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_psysos_sparetid_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_psysos_savnersosial_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_psysos_laveremotiv_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_psysos_mindrepress_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_psysos_mer_ro_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_psysos_økoproblem_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+            <Field name="korona_psysos_bekymrsmitte_20" source="File: C:\Users\acer\Downloads\NOKUT\NOKUT\Programdata_SB2020.xls|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="234" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="474" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields />
+          <DataFields>
+            <Field field="studiepgm_navn" selected="False" />
+            <Field field="identifikator" selected="True" />
+            <Field field="studiepgm_navn_en" selected="True" />
+            <Field field="instnr" selected="True" />
+            <Field field="instnavn" selected="True" />
+            <Field field="instnavn_en" selected="True" />
+            <Field field="studiested" selected="True" />
+            <Field field="NUSKODE" selected="True" />
+            <Field field="fagfelt" selected="True" />
+            <Field field="fagfelt_nyn" selected="True" />
+            <Field field="fagfelt_eng" selected="True" />
+            <Field field="faggruppe" selected="True" />
+            <Field field="faggruppe_nyn" selected="True" />
+            <Field field="faggruppe_eng" selected="True" />
+            <Field field="utdanningsgruppe" selected="True" />
+            <Field field="utdanningsgruppe_nyn" selected="True" />
+            <Field field="utdanningsgruppe_eng" selected="True" />
+            <Field field="bama" selected="True" />
+            <Field field="fagfelt_bama" selected="True" />
+            <Field field="studprog_kod" selected="True" />
+            <Field field="Prosenttall_Praksis" selected="True" />
+            <Field field="STUDIENIVAKODE" selected="True" />
+            <Field field="utd_type" selected="True" />
+            <Field field="utd_gruppe" selected="True" />
+            <Field field="aggregerte_data" selected="True" />
+            <Field field="oppr_utvalg" selected="True" />
+            <Field field="end_utvalg" selected="True" />
+            <Field field="andel_svart" selected="True" />
+            <Field field="terskel" selected="True" />
+            <Field field="an_heltd_DBH" selected="True" />
+            <Field field="stupoeng_DBH" selected="True" />
+            <Field field="organis_DBH" selected="True" />
+            <Field field="pc_praksDBH" selected="True" />
+            <Field field="undsprakDBH" selected="True" />
+            <Field field="vidutd_DBH" selected="True" />
+            <Field field="totstud_DBH" selected="True" />
+            <Field field="totkvi_DBH" selected="True" />
+            <Field field="totmenn_DBH" selected="True" />
+            <Field field="aldmedian_DBH" selected="True" />
+            <Field field="totkvi_prosent_DBH" selected="True" />
+            <Field field="totmenn_prosent_DBH" selected="True" />
+            <Field field="underv_engasj_18" selected="True" />
+            <Field field="underv_formidl_18" selected="True" />
+            <Field field="underv_pensum_18" selected="True" />
+            <Field field="underv_aktiv_18" selected="True" />
+            <Field field="indeks_underv_18" selected="True" />
+            <Field field="omftilb_forinnlev_15" selected="True" />
+            <Field field="omftilb_etterinnlev_15" selected="True" />
+            <Field field="omftilb_ikkeskrift_15" selected="True" />
+            <Field field="omftilb_andrestud_15" selected="True" />
+            <Field field="omftilb_fagprobl_15" selected="True" />
+            <Field field="omftilb_fagutvikl_15" selected="True" />
+            <Field field="tilbveil_antall_16" selected="True" />
+            <Field field="tilbveil_konstru_13" selected="True" />
+            <Field field="tilbveil_fagdisk_18" selected="True" />
+            <Field field="indeks_tilbveil_16" selected="True" />
+            <Field field="tilbveil_student_18" selected="True" />
+            <Field field="miljo_sosial_13" selected="True" />
+            <Field field="miljo_fag_13" selected="True" />
+            <Field field="miljo_studans_15" selected="True" />
+            <Field field="indeks_psymiljo_15" selected="True" />
+            <Field field="miljo_lokaler_13" selected="True" />
+            <Field field="miljo_utstyr_13" selected="True" />
+            <Field field="miljo_biblio_13" selected="True" />
+            <Field field="miljo_ikt_13" selected="True" />
+            <Field field="indeks_fysmiljo_13" selected="True" />
+            <Field field="indeks_miljo_13" selected="True" />
+            <Field field="organ_tilgjinfo_17" selected="True" />
+            <Field field="organ_kvalinfo_17" selected="True" />
+            <Field field="organ_admtilr_17" selected="True" />
+            <Field field="organ_fagligsam_17" selected="True" />
+            <Field field="indeks_organ_17" selected="True" />
+            <Field field="vurd_pensum_13" selected="True" />
+            <Field field="vurd_forstaelse_13" selected="True" />
+            <Field field="vurd_laert_17" selected="True" />
+            <Field field="vurd_kriterier_17" selected="True" />
+            <Field field="vurd_fagutv_17" selected="True" />
+            <Field field="indeks_vurd_17" selected="True" />
+            <Field field="medvirk_innspill_18" selected="True" />
+            <Field field="medvirk_oppfolg_18" selected="True" />
+            <Field field="medvirk_tillitsv_18" selected="True" />
+            <Field field="indeks_medvirk_18" selected="True" />
+            <Field field="insp_stimul_13" selected="True" />
+            <Field field="insp_utfordr_13" selected="True" />
+            <Field field="insp_motivasjon_14" selected="True" />
+            <Field field="indeks_insp_14" selected="True" />
+            <Field field="praksis_forber_14" selected="True" />
+            <Field field="praksis_organ_18" selected="True" />
+            <Field field="praksis_komm_14" selected="True" />
+            <Field field="praksis_tilbakem_14" selected="True" />
+            <Field field="praksis_fagutford_14" selected="True" />
+            <Field field="praksis_teori_14" selected="True" />
+            <Field field="praksis_undervis_14" selected="True" />
+            <Field field="indeks_praksis_14" selected="True" />
+            <Field field="yrkrel_komp_16" selected="True" />
+            <Field field="yrkrel_bruk_18" selected="True" />
+            <Field field="yrkrel_bransje_18" selected="True" />
+            <Field field="yrkrel_kontakter_18" selected="True" />
+            <Field field="indeks_yrkrel_18" selected="True" />
+            <Field field="laerutb_teori_13" selected="True" />
+            <Field field="laerutb_metforsk_13" selected="True" />
+            <Field field="laerutb_egenerf_13" selected="True" />
+            <Field field="laerutb_fagspes_13" selected="True" />
+            <Field field="laerutb_refleks_13" selected="True" />
+            <Field field="laerutb_samarb_13" selected="True" />
+            <Field field="laerutb_muntkom_13" selected="True" />
+            <Field field="laerutb_skriftkom_13" selected="True" />
+            <Field field="laerutb_tenke_13" selected="True" />
+            <Field field="laerutb_selvst_13" selected="True" />
+            <Field field="egeteng_motivert_14" selected="True" />
+            <Field field="egeteng_orgakt_14" selected="True" />
+            <Field field="egeteng_forberedt_14" selected="True" />
+            <Field field="egeteng_innsats_14" selected="True" />
+            <Field field="indeks_egeteng_14" selected="True" />
+            <Field field="forvent_klare_16" selected="True" />
+            <Field field="forvent_forberedt_16" selected="True" />
+            <Field field="forvent_deltar_16" selected="True" />
+            <Field field="forvent_fagamb_16" selected="True" />
+            <Field field="indeks_forvent_16" selected="True" />
+            <Field field="overord_garpahelst_13" selected="True" />
+            <Field field="overord_altialt_13" selected="True" />
+            <Field field="tidsbruk_laerakt_14" selected="True" />
+            <Field field="tidsbruk_egeninns_14" selected="True" />
+            <Field field="tidsbruk_arbeid_14" selected="True" />
+            <Field field="digitale_aktivt_18" selected="True" />
+            <Field field="digitale_kompet_18" selected="True" />
+            <Field field="digitale_opplaer_18" selected="True" />
+            <Field field="digitale_laerplatt_18" selected="True" />
+            <Field field="indeks_digi_18" selected="True" />
+            <Field field="undbruk_forelesn_14" selected="True" />
+            <Field field="undbruk_seminar_14" selected="True" />
+            <Field field="undbruk_gruppe_14" selected="True" />
+            <Field field="undbruk_innlev_14" selected="True" />
+            <Field field="undbruk_prosjekt_14" selected="True" />
+            <Field field="undbruk_feltarb_17" selected="True" />
+            <Field field="undbruk_lab_14" selected="True" />
+            <Field field="undbruk_praktov_14" selected="True" />
+            <Field field="undbruk_case_14" selected="True" />
+            <Field field="undbruk_simul_14" selected="True" />
+            <Field field="undbruk_praksis_14" selected="True" />
+            <Field field="undbruk_digital_14" selected="True" />
+            <Field field="undbidr_forelesn_14" selected="True" />
+            <Field field="undbidr_seminar_14" selected="True" />
+            <Field field="undbidr_gruppe_14" selected="True" />
+            <Field field="undbidr_innlev_14" selected="True" />
+            <Field field="undbidr_prosjekt_14" selected="True" />
+            <Field field="undbidr_feltarb_17" selected="True" />
+            <Field field="undbidr_lab_14" selected="True" />
+            <Field field="undbidr_praktov_14" selected="True" />
+            <Field field="undbidr_case_14" selected="True" />
+            <Field field="undbidr_simul_14" selected="True" />
+            <Field field="undbidr_praksis_14" selected="True" />
+            <Field field="undbidr_digital_14" selected="True" />
+            <Field field="studiestart_samsvar_18" selected="True" />
+            <Field field="studiestart_forventn_18" selected="True" />
+            <Field field="studiestart_innfor_18" selected="True" />
+            <Field field="studiestart_fagfellans_18" selected="True" />
+            <Field field="studiestart_fagfellstud_18" selected="True" />
+            <Field field="studiestart_sosfell_18" selected="True" />
+            <Field field="utd_type_bok" selected="True" />
+            <Field field="utd_type_eng" selected="True" />
+            <Field field="utd_type_nyn" selected="True" />
+            <Field field="praksis_tot_arbmengde_19" selected="True" />
+            <Field field="praksiso_inf_19" selected="True" />
+            <Field field="praksiso_forber_14" selected="True" />
+            <Field field="praksiso_skaffeplass_19" selected="True" />
+            <Field field="praksiso_tokimot_19" selected="True" />
+            <Field field="praksiso_passetinn_19" selected="True" />
+            <Field field="praksiso_tilgjeng_19" selected="True" />
+            <Field field="praksisv_ofteveil_19" selected="True" />
+            <Field field="praksisv_tilgjengveil_19" selected="True" />
+            <Field field="praksisv_kvalitetveil_19" selected="True" />
+            <Field field="praksisf_relevant_19" selected="True" />
+            <Field field="praksisf_fagligutf_19" selected="True" />
+            <Field field="praksisf_grunnlagdisk_19" selected="True" />
+            <Field field="indeks_praksisv_19" selected="True" />
+            <Field field="yrkrel_formidle_19" selected="True" />
+            <Field field="yrkrel_motearb_19" selected="True" />
+            <Field field="yrkrel_bidrar_19" selected="True" />
+            <Field field="yrkrel_prosjekt_19" selected="True" />
+            <Field field="indeks_yrkrel_19" selected="True" />
+            <Field field="praksis_inf_19" selected="True" />
+            <Field field="praksis_passetinn_19" selected="True" />
+            <Field field="praksis_veil_20" selected="True" />
+            <Field field="praksis_laerutb_20" selected="True" />
+            <Field field="praksis_relevant_19" selected="True" />
+            <Field field="praksis_grunnlagdisk_19" selected="True" />
+            <Field field="indeks_praksis_20" selected="True" />
+            <Field field="korona_underv_nettunderv_20" selected="True" />
+            <Field field="korona_underv_engasj_20" selected="True" />
+            <Field field="korona_underv_ikkedigkomp_20" selected="True" />
+            <Field field="korona_underv_info_20" selected="True" />
+            <Field field="korona_underv_innspill_20" selected="True" />
+            <Field field="korona_deltag_meraktiv_20" selected="True" />
+            <Field field="korona_deltag_mindremotiv_20" selected="True" />
+            <Field field="korona_deltag_nettveil_20" selected="True" />
+            <Field field="korona_deltag_laertmer_20" selected="True" />
+            <Field field="korona_deltag_opptak_fåmed_20" selected="True" />
+            <Field field="korona_deltag_opptak_flere_20" selected="True" />
+            <Field field="korona_deltag_foretr_live_20" selected="True" />
+            <Field field="korona_deltag_lettdelt_nett_20" selected="True" />
+            <Field field="korona_deltag_litenanld_spm_20" selected="True" />
+            <Field field="korona_vurd_hjemmeok_20" selected="True" />
+            <Field field="korona_vurd_nett_merutfordr_20" selected="True" />
+            <Field field="korona_vurd_bestattikke_ok_20" selected="True" />
+            <Field field="korona_psyksos_ensom_20" selected="True" />
+            <Field field="korona_psysos_struktur_20" selected="True" />
+            <Field field="korona_psysos_sparetid_20" selected="True" />
+            <Field field="korona_psysos_savnersosial_20" selected="True" />
+            <Field field="korona_psysos_laveremotiv_20" selected="True" />
+            <Field field="korona_psysos_mindrepress_20" selected="True" />
+            <Field field="korona_psysos_mer_ro_20" selected="True" />
+            <Field field="korona_psysos_økoproblem_20" selected="True" />
+            <Field field="korona_psysos_bekymrsmitte_20" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="studiepgm_navn" selected="False" />
+            <SelectField field="instnavn" selected="False" />
+            <SelectField field="fagfelt_nyn" selected="False" />
+            <SelectField field="faggruppe_nyn" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Nokut workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="ed75f97e-bfd2-4838-9cf6-8ebd6ae7a9c1" />
+      <Telemetry>
+        <PreviousWorkflowId value="202d3ccf-aa26-4940-8407-e5f36f02f7d2" />
+        <OriginWorkflowId value="202d3ccf-aa26-4940-8407-e5f36f02f7d2" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
