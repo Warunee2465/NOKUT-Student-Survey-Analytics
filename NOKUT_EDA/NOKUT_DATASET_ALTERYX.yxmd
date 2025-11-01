@@ -1,0 +1,888 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>combine_ds.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="no" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="studiepgm_navn" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="identifikator" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="Year" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="instnavn" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="studiested" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="fagfelt" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="faggruppe" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="utdanningsgruppe" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="bama" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="Prosenttall_Praksis" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="totstud_DBH" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="totkvi_DBH" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="totmenn_DBH" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="totkvi_prosent_DBH" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="totmenn_prosent_DBH" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="underv_engasj_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="underv_formidl_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="underv_pensum_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="underv_aktiv_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_underv_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="omftilb_forinnlev_15" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="omftilb_etterinnlev_15" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="omftilb_ikkeskrift_15" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="omftilb_andrestud_15" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="omftilb_fagprobl_15" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="omftilb_fagutvikl_15" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="tilbveil_antall_16" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="tilbveil_konstru_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="tilbveil_fagdisk_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_tilbveil_16" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="tilbveil_student_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="miljo_sosial_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="miljo_fag_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="miljo_studans_15" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_psymiljo_15" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="miljo_lokaler_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="miljo_utstyr_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="miljo_biblio_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="miljo_ikt_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_fysmiljo_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_miljo_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="organ_tilgjinfo_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="organ_kvalinfo_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="organ_admtilr_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="organ_fagligsam_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_organ_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="vurd_pensum_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="vurd_forstaelse_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="vurd_laert_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="vurd_kriterier_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="vurd_fagutv_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_vurd_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="medvirk_innspill_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="medvirk_oppfolg_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="medvirk_tillitsv_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_medvirk_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="insp_stimul_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="insp_utfordr_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="insp_motivasjon_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_insp_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_forber_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_organ_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_komm_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_tilbakem_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_fagutford_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_teori_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_undervis_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_praksis_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="yrkrel_komp_16" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="yrkrel_bruk_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="yrkrel_bransje_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="yrkrel_kontakter_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_yrkrel_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="laerutb_teori_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="laerutb_metforsk_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="laerutb_egenerf_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="laerutb_fagspes_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="laerutb_refleks_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="laerutb_samarb_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="laerutb_muntkom_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="laerutb_skriftkom_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="laerutb_tenke_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="laerutb_selvst_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="egeteng_motivert_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="egeteng_orgakt_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="egeteng_forberedt_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="egeteng_innsats_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_egeteng_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="forvent_klare_16" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="forvent_forberedt_16" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="forvent_deltar_16" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="forvent_fagamb_16" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_forvent_16" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="overord_garpahelst_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="overord_altialt_13" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="tidsbruk_laerakt_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="tidsbruk_egeninns_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="tidsbruk_arbeid_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="digitale_aktivt_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="digitale_kompet_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="digitale_opplaer_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="digitale_laerplatt_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_digi_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_forelesn_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_seminar_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_gruppe_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_innlev_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_prosjekt_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_feltarb_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_lab_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_praktov_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_case_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_simul_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_praksis_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbruk_digital_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_forelesn_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_seminar_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_gruppe_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_innlev_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_prosjekt_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_feltarb_17" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_lab_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_praktov_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_case_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_simul_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_praksis_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="undbidr_digital_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="studiestart_samsvar_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="studiestart_forventn_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="studiestart_innfor_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="studiestart_fagfellans_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="studiestart_fagfellstud_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="studiestart_sosfell_18" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="utd_type_bok" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="utd_type_eng" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="utd_type_nyn" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_tot_arbmengde_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksiso_inf_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksiso_forber_14" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksiso_skaffeplass_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksiso_tokimot_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksiso_passetinn_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksiso_tilgjeng_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksisv_ofteveil_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksisv_tilgjengveil_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksisv_kvalitetveil_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksisf_relevant_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksisf_fagligutf_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksisf_grunnlagdisk_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_praksisv_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="yrkrel_formidle_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="yrkrel_motearb_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="yrkrel_bidrar_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="yrkrel_prosjekt_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_yrkrel_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_inf_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_passetinn_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_veil_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_laerutb_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_relevant_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="praksis_grunnlagdisk_19" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="indeks_praksis_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_underv_nettunderv_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_underv_engasj_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_underv_ikkedigkomp_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_underv_info_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_underv_innspill_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_deltag_meraktiv_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_deltag_mindremotiv_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_deltag_nettveil_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_deltag_laertmer_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_deltag_opptak_fåmed_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_deltag_opptak_flere_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_deltag_foretr_live_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_deltag_lettdelt_nett_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_deltag_litenanld_spm_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_vurd_hjemmeok_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_vurd_nett_merutfordr_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_vurd_bestattikke_ok_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_psyksos_ensom_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_psysos_struktur_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_psysos_sparetid_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_psysos_savnersosial_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_psysos_laveremotiv_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_psysos_mindrepress_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_psysos_mer_ro_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_psysos_økoproblem_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+            <Field name="korona_psysos_bekymrsmitte_20" size="254" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\combine_ds.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="no" selected="False" />
+            <SelectField field="Prosenttall_Praksis" selected="False" />
+            <SelectField field="utd_type_bok" selected="False" />
+            <SelectField field="utd_type_eng" selected="False" />
+            <SelectField field="utd_type_nyn" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="studiepgm_navn" />
+            <Field field="identifikator" />
+            <Field field="Year" />
+            <Field field="instnavn" />
+            <Field field="studiested" />
+            <Field field="fagfelt" />
+            <Field field="faggruppe" />
+            <Field field="utdanningsgruppe" />
+            <Field field="bama" />
+          </KeyFields>
+          <DataFields>
+            <Field field="studiepgm_navn" selected="False" />
+            <Field field="identifikator" selected="False" />
+            <Field field="Year" selected="False" />
+            <Field field="instnavn" selected="False" />
+            <Field field="studiested" selected="False" />
+            <Field field="fagfelt" selected="False" />
+            <Field field="faggruppe" selected="False" />
+            <Field field="utdanningsgruppe" selected="False" />
+            <Field field="bama" selected="False" />
+            <Field field="totstud_DBH" selected="True" />
+            <Field field="totkvi_DBH" selected="True" />
+            <Field field="totmenn_DBH" selected="True" />
+            <Field field="totkvi_prosent_DBH" selected="True" />
+            <Field field="totmenn_prosent_DBH" selected="True" />
+            <Field field="underv_engasj_18" selected="True" />
+            <Field field="underv_formidl_18" selected="True" />
+            <Field field="underv_pensum_18" selected="True" />
+            <Field field="underv_aktiv_18" selected="True" />
+            <Field field="indeks_underv_18" selected="True" />
+            <Field field="omftilb_forinnlev_15" selected="True" />
+            <Field field="omftilb_etterinnlev_15" selected="True" />
+            <Field field="omftilb_ikkeskrift_15" selected="True" />
+            <Field field="omftilb_andrestud_15" selected="True" />
+            <Field field="omftilb_fagprobl_15" selected="True" />
+            <Field field="omftilb_fagutvikl_15" selected="True" />
+            <Field field="tilbveil_antall_16" selected="True" />
+            <Field field="tilbveil_konstru_13" selected="True" />
+            <Field field="tilbveil_fagdisk_18" selected="True" />
+            <Field field="indeks_tilbveil_16" selected="True" />
+            <Field field="tilbveil_student_18" selected="True" />
+            <Field field="miljo_sosial_13" selected="True" />
+            <Field field="miljo_fag_13" selected="True" />
+            <Field field="miljo_studans_15" selected="True" />
+            <Field field="indeks_psymiljo_15" selected="True" />
+            <Field field="miljo_lokaler_13" selected="True" />
+            <Field field="miljo_utstyr_13" selected="True" />
+            <Field field="miljo_biblio_13" selected="True" />
+            <Field field="miljo_ikt_13" selected="True" />
+            <Field field="indeks_fysmiljo_13" selected="True" />
+            <Field field="indeks_miljo_13" selected="True" />
+            <Field field="organ_tilgjinfo_17" selected="True" />
+            <Field field="organ_kvalinfo_17" selected="True" />
+            <Field field="organ_admtilr_17" selected="True" />
+            <Field field="organ_fagligsam_17" selected="True" />
+            <Field field="indeks_organ_17" selected="True" />
+            <Field field="vurd_pensum_13" selected="True" />
+            <Field field="vurd_forstaelse_13" selected="True" />
+            <Field field="vurd_laert_17" selected="True" />
+            <Field field="vurd_kriterier_17" selected="True" />
+            <Field field="vurd_fagutv_17" selected="True" />
+            <Field field="indeks_vurd_17" selected="True" />
+            <Field field="medvirk_innspill_18" selected="True" />
+            <Field field="medvirk_oppfolg_18" selected="True" />
+            <Field field="medvirk_tillitsv_18" selected="True" />
+            <Field field="indeks_medvirk_18" selected="True" />
+            <Field field="insp_stimul_13" selected="True" />
+            <Field field="insp_utfordr_13" selected="True" />
+            <Field field="insp_motivasjon_14" selected="True" />
+            <Field field="indeks_insp_14" selected="True" />
+            <Field field="praksis_forber_14" selected="True" />
+            <Field field="praksis_organ_18" selected="True" />
+            <Field field="praksis_komm_14" selected="True" />
+            <Field field="praksis_tilbakem_14" selected="True" />
+            <Field field="praksis_fagutford_14" selected="True" />
+            <Field field="praksis_teori_14" selected="True" />
+            <Field field="praksis_undervis_14" selected="True" />
+            <Field field="indeks_praksis_14" selected="True" />
+            <Field field="yrkrel_komp_16" selected="True" />
+            <Field field="yrkrel_bruk_18" selected="True" />
+            <Field field="yrkrel_bransje_18" selected="True" />
+            <Field field="yrkrel_kontakter_18" selected="True" />
+            <Field field="indeks_yrkrel_18" selected="True" />
+            <Field field="laerutb_teori_13" selected="True" />
+            <Field field="laerutb_metforsk_13" selected="True" />
+            <Field field="laerutb_egenerf_13" selected="True" />
+            <Field field="laerutb_fagspes_13" selected="True" />
+            <Field field="laerutb_refleks_13" selected="True" />
+            <Field field="laerutb_samarb_13" selected="True" />
+            <Field field="laerutb_muntkom_13" selected="True" />
+            <Field field="laerutb_skriftkom_13" selected="True" />
+            <Field field="laerutb_tenke_13" selected="True" />
+            <Field field="laerutb_selvst_13" selected="True" />
+            <Field field="egeteng_motivert_14" selected="True" />
+            <Field field="egeteng_orgakt_14" selected="True" />
+            <Field field="egeteng_forberedt_14" selected="True" />
+            <Field field="egeteng_innsats_14" selected="True" />
+            <Field field="indeks_egeteng_14" selected="True" />
+            <Field field="forvent_klare_16" selected="True" />
+            <Field field="forvent_forberedt_16" selected="True" />
+            <Field field="forvent_deltar_16" selected="True" />
+            <Field field="forvent_fagamb_16" selected="True" />
+            <Field field="indeks_forvent_16" selected="True" />
+            <Field field="overord_garpahelst_13" selected="True" />
+            <Field field="overord_altialt_13" selected="True" />
+            <Field field="tidsbruk_laerakt_14" selected="True" />
+            <Field field="tidsbruk_egeninns_14" selected="True" />
+            <Field field="tidsbruk_arbeid_14" selected="True" />
+            <Field field="digitale_aktivt_18" selected="True" />
+            <Field field="digitale_kompet_18" selected="True" />
+            <Field field="digitale_opplaer_18" selected="True" />
+            <Field field="digitale_laerplatt_18" selected="True" />
+            <Field field="indeks_digi_18" selected="True" />
+            <Field field="undbruk_forelesn_14" selected="True" />
+            <Field field="undbruk_seminar_14" selected="True" />
+            <Field field="undbruk_gruppe_14" selected="True" />
+            <Field field="undbruk_innlev_14" selected="True" />
+            <Field field="undbruk_prosjekt_14" selected="True" />
+            <Field field="undbruk_feltarb_17" selected="True" />
+            <Field field="undbruk_lab_14" selected="True" />
+            <Field field="undbruk_praktov_14" selected="True" />
+            <Field field="undbruk_case_14" selected="True" />
+            <Field field="undbruk_simul_14" selected="True" />
+            <Field field="undbruk_praksis_14" selected="True" />
+            <Field field="undbruk_digital_14" selected="True" />
+            <Field field="undbidr_forelesn_14" selected="True" />
+            <Field field="undbidr_seminar_14" selected="True" />
+            <Field field="undbidr_gruppe_14" selected="True" />
+            <Field field="undbidr_innlev_14" selected="True" />
+            <Field field="undbidr_prosjekt_14" selected="True" />
+            <Field field="undbidr_feltarb_17" selected="True" />
+            <Field field="undbidr_lab_14" selected="True" />
+            <Field field="undbidr_praktov_14" selected="True" />
+            <Field field="undbidr_case_14" selected="True" />
+            <Field field="undbidr_simul_14" selected="True" />
+            <Field field="undbidr_praksis_14" selected="True" />
+            <Field field="undbidr_digital_14" selected="True" />
+            <Field field="studiestart_samsvar_18" selected="True" />
+            <Field field="studiestart_forventn_18" selected="True" />
+            <Field field="studiestart_innfor_18" selected="True" />
+            <Field field="studiestart_fagfellans_18" selected="True" />
+            <Field field="studiestart_fagfellstud_18" selected="True" />
+            <Field field="studiestart_sosfell_18" selected="True" />
+            <Field field="praksis_tot_arbmengde_19" selected="True" />
+            <Field field="praksiso_inf_19" selected="True" />
+            <Field field="praksiso_forber_14" selected="True" />
+            <Field field="praksiso_skaffeplass_19" selected="True" />
+            <Field field="praksiso_tokimot_19" selected="True" />
+            <Field field="praksiso_passetinn_19" selected="True" />
+            <Field field="praksiso_tilgjeng_19" selected="True" />
+            <Field field="praksisv_ofteveil_19" selected="True" />
+            <Field field="praksisv_tilgjengveil_19" selected="True" />
+            <Field field="praksisv_kvalitetveil_19" selected="True" />
+            <Field field="praksisf_relevant_19" selected="True" />
+            <Field field="praksisf_fagligutf_19" selected="True" />
+            <Field field="praksisf_grunnlagdisk_19" selected="True" />
+            <Field field="indeks_praksisv_19" selected="True" />
+            <Field field="yrkrel_formidle_19" selected="True" />
+            <Field field="yrkrel_motearb_19" selected="True" />
+            <Field field="yrkrel_bidrar_19" selected="True" />
+            <Field field="yrkrel_prosjekt_19" selected="True" />
+            <Field field="indeks_yrkrel_19" selected="True" />
+            <Field field="praksis_inf_19" selected="True" />
+            <Field field="praksis_passetinn_19" selected="True" />
+            <Field field="praksis_veil_20" selected="True" />
+            <Field field="praksis_laerutb_20" selected="True" />
+            <Field field="praksis_relevant_19" selected="True" />
+            <Field field="praksis_grunnlagdisk_19" selected="True" />
+            <Field field="indeks_praksis_20" selected="True" />
+            <Field field="korona_underv_nettunderv_20" selected="True" />
+            <Field field="korona_underv_engasj_20" selected="True" />
+            <Field field="korona_underv_ikkedigkomp_20" selected="True" />
+            <Field field="korona_underv_info_20" selected="True" />
+            <Field field="korona_underv_innspill_20" selected="True" />
+            <Field field="korona_deltag_meraktiv_20" selected="True" />
+            <Field field="korona_deltag_mindremotiv_20" selected="True" />
+            <Field field="korona_deltag_nettveil_20" selected="True" />
+            <Field field="korona_deltag_laertmer_20" selected="True" />
+            <Field field="korona_deltag_opptak_fåmed_20" selected="True" />
+            <Field field="korona_deltag_opptak_flere_20" selected="True" />
+            <Field field="korona_deltag_foretr_live_20" selected="True" />
+            <Field field="korona_deltag_lettdelt_nett_20" selected="True" />
+            <Field field="korona_deltag_litenanld_spm_20" selected="True" />
+            <Field field="korona_vurd_hjemmeok_20" selected="True" />
+            <Field field="korona_vurd_nett_merutfordr_20" selected="True" />
+            <Field field="korona_vurd_bestattikke_ok_20" selected="True" />
+            <Field field="korona_psyksos_ensom_20" selected="True" />
+            <Field field="korona_psysos_struktur_20" selected="True" />
+            <Field field="korona_psysos_sparetid_20" selected="True" />
+            <Field field="korona_psysos_savnersosial_20" selected="True" />
+            <Field field="korona_psysos_laveremotiv_20" selected="True" />
+            <Field field="korona_psysos_mindrepress_20" selected="True" />
+            <Field field="korona_psysos_mer_ro_20" selected="True" />
+            <Field field="korona_psysos_økoproblem_20" selected="True" />
+            <Field field="korona_psysos_bekymrsmitte_20" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="378" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNull</Operator>
+            <Field>Value</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-11-13 14:13:36</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2023-11-13 14:13:36</StartDate>
+              <EndDate>2023-11-13 14:13:36</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([Value])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2019_kodebook_description_EN.xlsx|||` codebook_SB_2019$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2019_kodebook_description_EN.xlsx
+Query=` codebook_SB_2019$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Variable Name 2019" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2019_kodebook_description_EN.xlsx|||` codebook_SB_2019$`" type="V_String" />
+            <Field name="Category / header" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2019_kodebook_description_EN.xlsx|||` codebook_SB_2019$`" type="V_String" />
+            <Field name="Introductory questions" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2019_kodebook_description_EN.xlsx|||` codebook_SB_2019$`" type="V_String" />
+            <Field name="Question text/label" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2019_kodebook_description_EN.xlsx|||` codebook_SB_2019$`" type="V_String" />
+            <Field name="Question type" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2019_kodebook_description_EN.xlsx|||` codebook_SB_2019$`" type="V_String" />
+            <Field name="Values" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2019_kodebook_description_EN.xlsx|||` codebook_SB_2019$`" type="V_String" />
+            <Field name="Comment" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2019_kodebook_description_EN.xlsx|||` codebook_SB_2019$`" type="V_String" />
+            <Field name="F8" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2019_kodebook_description_EN.xlsx|||` codebook_SB_2019$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Variable Name 2019" selected="True" rename="Tag" />
+            <SelectField field="Question text/label" selected="True" rename="Questiontext_label" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="Tag" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2018_kodebook_description_EN.xlsx|||` codebook_SB2018$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2018_kodebook_description_EN.xlsx
+Query=` codebook_SB2018$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Category/Header" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2018_kodebook_description_EN.xlsx|||` codebook_SB2018$`" type="V_String" />
+            <Field name="Variable Name 2018" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2018_kodebook_description_EN.xlsx|||` codebook_SB2018$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2018_kodebook_description_EN.xlsx|||` codebook_SB2018$`" type="V_String" />
+            <Field name="Type" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2018_kodebook_description_EN.xlsx|||` codebook_SB2018$`" type="V_String" />
+            <Field name="Introductory questions" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2018_kodebook_description_EN.xlsx|||` codebook_SB2018$`" type="V_String" />
+            <Field name="Question text/label" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2018_kodebook_description_EN.xlsx|||` codebook_SB2018$`" type="V_String" />
+            <Field name="Values" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2018_kodebook_description_EN.xlsx|||` codebook_SB2018$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2020_kodebook_description_EN.xlsx|||` codebook_SB2020$`</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2020_kodebook_description_EN.xlsx
+Query=` codebook_SB2020$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Variable Name 2020" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2020_kodebook_description_EN.xlsx|||` codebook_SB2020$`" type="V_String" />
+            <Field name="Title/topic" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2020_kodebook_description_EN.xlsx|||` codebook_SB2020$`" type="V_String" />
+            <Field name="Introductory questions" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2020_kodebook_description_EN.xlsx|||` codebook_SB2020$`" type="V_String" />
+            <Field name="Description" size="450" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2020_kodebook_description_EN.xlsx|||` codebook_SB2020$`" type="V_String" />
+            <Field name="Values" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2020_kodebook_description_EN.xlsx|||` codebook_SB2020$`" type="V_String" />
+            <Field name="Type" size="255" source="File: C:\Users\Eszter\Desktop\data\exam\nokut\ENG\2020_kodebook_description_EN.xlsx|||` codebook_SB2020$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Variable Name 2018" selected="True" rename="Tag" />
+            <SelectField field="Question text/label" selected="True" rename="Questiontext_label" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Variable Name 2020" selected="True" rename="Tag" />
+            <SelectField field="Description" selected="True" rename="Questiontext_label" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="270" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="666" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Tag" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Tag" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Tag" selected="True" rename="Right_Tag" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="810" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Right_Tag" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="918" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="64" MaxRecords="">C:\Users\Eszter\Desktop\data\exam\nokut\ENG\NOKUT_DATA_ALT\NOKUT_TIDY_DATA.hyper</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>NOKUT_TIDY_DATA.hyper</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="False" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NOKUT_DATASET_ALTERYX</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="af75a385-4b02-4883-850f-317c2a6d3359" />
+      <Telemetry>
+        <PreviousWorkflowId value="21cd4edd-4eb0-4e94-a557-32bd4867331b" />
+        <OriginWorkflowId value="5a97bea9-e518-4ace-819f-b79026866772" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
