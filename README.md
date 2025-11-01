@@ -7,7 +7,6 @@ Explore patterns in:
 - student satisfaction
 - learning environment
 - programme quality
-- workload differences
 
 to understand where improvement opportunities exist in higher education programmes.
 
