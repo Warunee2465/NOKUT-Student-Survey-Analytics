@@ -44,7 +44,3 @@ Download and open the `.twbx` file in **Tableau Desktop**
 publish the file to **Tableau Public** to view online.
 
 ---
-
-### Contact
-Created by: **Onnicha Soythong**  
-Master’s in Artificial Intelligence — OsloMet
